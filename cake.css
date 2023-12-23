@@ -4,8 +4,8 @@ body {
     font-family:cursive;
 }
 .setting_all {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 30px;
 }
 .table {
@@ -39,6 +39,9 @@ body {
 .header_setting {
     text-align: center;
     padding: 10px;
+    background-color: rgba(6, 168, 0, 0.589);
+    border-radius: 30px;
+    padding-left: 20px;
 }
 
 img{
@@ -46,18 +49,19 @@ img{
     border-radius: 20px;
 }
 
-@media screen and (max-width: 900px ){
+@media screen and (max-width: 700px ){
     img{
         width: 100%;
     }
 }
-@media screen and (max-width: 500px ){
-    img{
-        width: 160%;
+
+@media screen and (max-width: 180px){
+    .footer_setting{
+        background-color:unset;
     }
 }
-@media screen and (max-width: 370px){
-    .footer_setting{
+@media screen and (max-width: 220px){
+    .header_setting{
         background-color:unset;
     }
 }
