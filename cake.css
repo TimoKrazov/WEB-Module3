@@ -2,11 +2,12 @@ body {
     background-color: rgba(194, 224, 22, 0.452);
     color:black;
     font-family:cursive;
+}
+.setting_all {
     margin-left: 100px;
     margin-right: 100px;
     margin-top: 30px;
 }
-
 .table {
     display: flex;
     flex-direction: row;
@@ -27,22 +28,16 @@ body {
 }
 
 .footer_setting {
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.footer_blok {
-    margin: 10px;
-    padding-left: 15px;
     background-color: rgba(6, 168, 0, 0.589);
     border-radius: 30px;
-    margin-bottom: 20px;
-    padding-right: 40px;
-    max-width: 200px;
+    padding-left: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+
 }
 .header_setting {
     text-align: center;
+    padding: 10px;
 }
 
 img{
@@ -54,5 +49,10 @@ img{
 @media screen and (max-width: 545px){
     img{
         display: none;
+    }
+}
+@media screen and (max-width: 370px){
+    .footer_setting{
+        background-color:unset;
     }
 }
