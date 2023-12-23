@@ -42,14 +42,13 @@ body {
 }
 
 img{
-    width: 75%;
-    height: 75%;
+    width: 40%;
     border-radius: 20px;
 }
 
-@media screen and (max-width: 545px){
+@media screen and (max-width: 900px ){
     img{
-        display: none;
+        width: 100%;
     }
 }
 @media screen and (max-width: 370px){
