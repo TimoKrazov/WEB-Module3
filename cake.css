@@ -1,7 +1,7 @@
 body {
     background-color: rgba(194, 224, 22, 0.452);
     color:black;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Courier New', Courier, monospace;
 }
 .setting_all {
     margin-left: 10%;
